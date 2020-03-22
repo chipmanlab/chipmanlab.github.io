@@ -1,29 +1,34 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'chipman.lab',
+  tagline: 'Documentation and knowledge base',
+  url: 'https://gitlab.com/getchipman',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'getchipman', // Usually your GitHub org/user name.
+  projectName: 'lab', // Usually your repo name.
   themeConfig: {
+    image: 'img/logo_hero.svg',
     navbar: {
-      title: 'My Site',
+      title: 'chipman.lab',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'lab',
         src: 'img/logo.svg',
       },
       links: [
         {
           to: 'docs/doc1',
-          activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          to: 'docs/doc2',
+          label: 'Base',
+          position: 'left',
+        },
+        /*{to: 'blog', label: 'Blog', position: 'left'},*/
+        {
+          href: 'https://gitlab.com/getchipman/',
+          label: 'GitLab',
           position: 'right',
         },
       ],
@@ -65,12 +70,8 @@ module.exports = {
               to: 'blog',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'GitLab',
+              href: 'https://gitlab.com/getchipman/',
             },
           ],
         },
