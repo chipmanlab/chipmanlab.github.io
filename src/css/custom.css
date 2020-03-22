@@ -24,6 +24,19 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
+.navbar__item.navbar__link[href*="gitlab"] {
+  display: flex;
+  font-size: 0;
+  padding: 0 12px;
+}
+.navbar__item.navbar__link[href*="gitlab"]:before {
+  content: "";
+  width: 34px;
+  height: 34px;
+  background: url("/img/gitlab-icon-rgb.svg");
+  background-repeat: no-repeat;
+}
+
 body {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
