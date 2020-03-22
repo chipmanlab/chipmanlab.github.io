@@ -59,22 +59,29 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <header className={classnames('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
-            <Link
-              className={classnames(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/doc1')}>
-              Get Started
-            </Link>
+      <header className={classnames('hero', styles.heroBanner)}>
+      <div className="container">
+        <div className="row">
+          <div className={classnames('col col--5 col--offset-1')}>
+            <h1 className="hero__title">{siteConfig.title}</h1>
+            <p className="hero__subtitle">{siteConfig.tagline}</p>
+            <div className={styles.buttons}>
+              <Link
+                className={classnames(
+                  'button button--outline button--secondary button--lg',
+                  styles.getStarted,
+                )}
+                to={useBaseUrl('docs/guides/getting_started')}>
+                Get Started
+              </Link>
+            </div>
           </div>
+          <div className={classnames('col col--5')}>
+            <img className={styles.heroImg} src="img/logo_hero.svg" />
+          </div>
+        </div>
         </div>
       </header>
       <main>
