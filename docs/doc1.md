@@ -10,7 +10,7 @@ You can write content using [GitHub-flavored Markdown syntax](https://github.git
 
 To serve as an example page when styling markdown based Docusaurus sites.
 
-## Headers
+## Headers HUDSON VEJA
 
 # H1 - Create the best documentation
 
@@ -89,7 +89,7 @@ Inline-style: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src
 
 Reference-style: ![alt text][logo]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 
 ---
 
