@@ -1,11 +1,11 @@
 module.exports = {
   title: 'chipman.lab',
   tagline: 'Documentation and knowledge base handbook',
-  url: 'https://gitlab.com/getchipman',
+  url: 'https://chipmanlab.github.io',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'getchipman', // Usually your GitHub org/user name.
-  projectName: 'lab', // Usually your repo name.
+  organizationName: 'chipmanlab', // Usually your GitHub org/user name.
+  projectName: 'chipmanlab.github.io', // Usually your repo name.
   themeConfig: {
     image: 'img/logo_hero.svg',
     navbar: {
